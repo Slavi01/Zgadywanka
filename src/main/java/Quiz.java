@@ -5,6 +5,8 @@ import java.util.Random;
 
 public class Quiz {
 
+//        tutaj strasznie namieszałem komentarzem Sławku
+
         public static void main(String[] args) throws NumberFormatException, IOException {
 
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
