@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class Quiz {
-    
+
         public static void main(String[] args) throws NumberFormatException, IOException {
 
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -14,7 +14,7 @@ public class Quiz {
             int tryNumber = 1;
             Random randomize = new Random();
             int lookingNumber = randomize.nextInt(100);
-            while (statusLooking == false) {
+            while (!statusLooking) {
                 System.out.print("Wymyśliłem sobie liczbę z zakresu 0-100. Zgadnij co to za liczba. Będę udzielał Ci wskazówek. Podaj liczbę z tego zakresu tutaj : ");
                 int numberEntered = 0;
                 try {
